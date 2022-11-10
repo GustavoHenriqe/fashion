@@ -3,7 +3,8 @@
 }
 
 body{
-    font-family: "Roboto"
+    font-family: "Roboto";
+    background-color: #fcfcfc;
 }
 
 header{
@@ -13,4 +14,140 @@ header{
     padding-left: 80px;
     display: flex;
     align-items: center;
+}
+
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-section{
+    width: 2190px;
+    background-color: #404EED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-section img{
+    width: 630px;
+    height: 630px;
+}
+
+.one-section{
+    padding-top: 38px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 31px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    gap: 40px;
+}
+
+.camisas{
+    text-align: center;
+    line-height: 32px;
+}
+
+.type{
+    row-gap: 18px;
+}
+
+.type h1{
+    font-weight: 500;
+}
+
+.camisas button{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    border: 1px solid #C4C4C4;
+    cursor: pointer;
+}
+
+.request{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+.request h1{
+    margin-bottom: 9px;
+}
+
+.separate{
+    margin-top: 70px;
+    font-weight: 500;
+}
+
+.request input{
+    height: 40px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 23.76px;
+    padding-left: 15px;
+}
+
+.request input:focus{
+    outline: none;
+}
+
+.request button{
+    width: 398.61px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #C4C4C4;
+    border: none;
+    cursor: pointer;
+}
+
+
+footer .one-section .list-response{
+    gap: 16px;
+    display: flex;
+}
+
+footer .responses img{
+    width: 180px;
+    height: 180px;
+}
+
+.responses{
+    Width: 201.69px;
+    height: 236.47px;
+    background-color: #ffff;
+    display: flex;
+    text-align: center;
+}
+.responses h3{
+    margin-top: 7px;
+}
+footer .one-section{
+    max-width: 1095px;
+    padding: 0px;
+}
+
+
+footer{
+    margin-top: 15px;
+    padding-left: 70px;
+    background-color: #f2f2f2;
+    
+}
+
+.strong{
+    font-weight: 700;
 }

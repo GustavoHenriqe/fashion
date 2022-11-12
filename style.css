@@ -105,7 +105,7 @@ main{
     outline: none;
 }
 
-.request button{
+#send{
     width: 398.61px;
     height: 40px;
     border-radius: 10px;
@@ -114,7 +114,6 @@ main{
     cursor: pointer;
     color: #ffff;
 }
-
 
 footer .one-section .list-response{
     gap: 16px;
